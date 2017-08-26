@@ -1,0 +1,7 @@
+{
+	"authenticationUrl" : "https://wwwdev.railinc.com/zuul/fcc/railinc.fcc",
+	"profile" : {},
+	"target" : "https://wwwdev.railinc.com/railsight-monitor-mobile/userinfo",
+	"ok" : "Loign",
+	"refreshInterval" : 1800000
+}
