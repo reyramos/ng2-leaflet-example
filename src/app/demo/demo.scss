@@ -1,0 +1,16 @@
+/* encapsulate the various syntax in helper clases */
+/* inspired by http://infrequently.org/2009/08/css-3-progress/ */
+
+.constainer {
+  box-orient: vertical;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
+
+.map-container {
+  box-flex: 1;
+  flex: 1;
+}
