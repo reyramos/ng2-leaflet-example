@@ -28,7 +28,7 @@ import 'core-js/es6/reflect';
 // see issue https://github.com/AngularClass/angular2-webpack-starter/issues/709
 // import 'core-js/es6/promise';
 
-/** IE9, IE10 and IE11 requires all of the following polyfills. **/
+/* IE9, IE10 and IE11 requires all of the following polyfills.*/
 import 'core-js/es7/object';
 import 'core-js/es7/array';
 

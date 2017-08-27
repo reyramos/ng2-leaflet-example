@@ -9,7 +9,7 @@ declare const L: any;
 @Directive({
   selector: '[leaflet]'
 })
-export class MapDirective implements OnInit, AfterContentInit {
+export class LeafletDirective implements OnInit, AfterContentInit {
 
   private Element;
 
@@ -26,7 +26,6 @@ export class MapDirective implements OnInit, AfterContentInit {
      id         : 'mapbox.streets',
      accessToken: 'pk.eyJ1IjoicmVkcm9nZXIiLCJhIjoiY2o2c2tqbjIxMDIzaTJxbnpjZHBxdDEyZSJ9.E75NG-gitdKewtIZ9gHZ9g'
      }).addTo(map);
-
 
 
     // const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

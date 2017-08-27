@@ -16,10 +16,9 @@ import { ROUTES } from '../routes';
 import '../styles/index.scss';
 
 import { NoContentComponent } from './no-content/no-content.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
-import { MapDirective } from './map/map.component';
+import { LeafletDirective } from './leaflet/leaflet.directive';
 
 
 // Application wide providers
@@ -58,7 +57,7 @@ if ('development' === ENV) {
   declarations: [
     NoContentComponent,
     AppComponent,
-    MapDirective,
+    LeafletDirective,
     DemoComponent
   ],
   imports     : [
