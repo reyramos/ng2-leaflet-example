@@ -78,7 +78,7 @@
     "ag-grid-angular": "^8.2.0",
     "core-js": "^2.4.1",
     "ie-shim": "^0.1.0",
-    "leaflet": "^1.0.3",
+    "leaflet": "^1.2.0",
     "leaflet.markercluster": "^1.0.6",
     "locutus": "^2.0.9",
     "lodash": "^4.17.4",
