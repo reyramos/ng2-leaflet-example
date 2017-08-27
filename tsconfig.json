@@ -12,6 +12,7 @@
     "importHelpers": true,
     "strictNullChecks": false,
     "lib": [
+      "es2017",
       "dom",
       "es6",
       "es5"
