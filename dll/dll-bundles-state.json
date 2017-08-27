@@ -53,10 +53,10 @@
   },
   "leaflet": {
     "bundle": "vendor",
-    "version": "1.0.3"
+    "version": "1.2.0"
   },
   "leaflet.markercluster": {
     "bundle": "vendor",
-    "version": "1.0.6"
+    "version": "1.1.0"
   }
 }
